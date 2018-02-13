@@ -3,6 +3,28 @@
 }
 
 .aboutus-text{
-    text-align: center;
+
     padding-bottom: 1em;
+}
+
+.summery-title{
+
+  background: #ddd;
+
+    height: 30px;
+}
+
+.space{
+      margin-top: 1em;
+}
+.details{
+
+}
+
+@media(min-width:720px){
+  .aboutus-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 20px;
+  }
 }
