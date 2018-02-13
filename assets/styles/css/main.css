@@ -522,8 +522,25 @@ img {
 @media (min-width: 720px) {
   .portfolio-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 0px;
-    grid-column-gap: 0px; } }
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
+.description {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 1em; }
+
+.feature-item {
+  outline: 2px solid  #eee; }
+
+.feature-items {
+  border-radius: 100%; }
+
+@media (min-width: 720px) {
+  .feature-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em; }
+
+  .description {
+    width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

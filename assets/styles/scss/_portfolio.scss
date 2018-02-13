@@ -1,0 +1,29 @@
+.primary{
+  background: #F77CAD;
+  color: #fff;
+}
+
+.filter-buttons {
+  padding-top: 1em;
+}
+
+.btn{
+  &:hover{
+    background: #F77CAD;
+    color: #fff;
+  }
+}
+
+.center-image{
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media(min-width:720px) {
+     .portfolio-images{
+          display: grid;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+           
+     }
+}
