@@ -2,7 +2,27 @@ body{
     line-height: 1.5;
 }
 .container{
-  
-    width: 95%;
+
+    width: 90%;
     margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+hr{
+  width:50%;
+}
+
+h1{
+  font-size: 2.5em;
+}
+.btn{
+    background: #fff;
+   border:1px solid #F2F2F2;
+  outline: none;
+  padding: .5em;
+  cursor: pointer;
+
 }
