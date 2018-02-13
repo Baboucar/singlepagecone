@@ -406,8 +406,24 @@ body {
   line-height: 1.5; }
 
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto; }
+
+.center-text {
+  text-align: center; }
+
+hr {
+  width: 50%; }
+
+h1 {
+  font-size: 2.5em; }
+
+.btn {
+  background: #fff;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  padding: .5em;
+  cursor: pointer; }
 
 .navigation {
   list-style-type: none;
@@ -474,7 +490,40 @@ img {
   text-align: center; }
 
 .aboutus-text {
-  text-align: center;
   padding-bottom: 1em; }
+
+.summery-title {
+  background: #ddd;
+  height: 30px; }
+
+.space {
+  margin-top: 1em; }
+
+@media (min-width: 720px) {
+  .aboutus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; } }
+.primary {
+  background: #F77CAD;
+  color: #fff; }
+
+.filter-buttons {
+  padding-top: 1em; }
+
+.btn:hover {
+  background: #F77CAD;
+  color: #fff; }
+
+.center-image {
+  display: block;
+  margin: 0 auto; }
+
+@media (min-width: 720px) {
+  .portfolio-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; } }
 
 /*# sourceMappingURL=main.css.map */
