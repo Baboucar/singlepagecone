@@ -1,0 +1,48 @@
+.signupform{
+
+  background: #FF7CAD;
+
+}
+
+
+
+form{
+    padding-left: 2.5em;
+}
+
+label{
+   margin-top: 1em;
+   color: #4E4E4E;
+}
+
+input{
+  height: 30px;
+}
+input[type="text"],input[type="email"],textarea{
+  display: block;
+  width: 90%;
+}
+
+.signup-title{
+  padding: 1em;
+}
+input[type="submit"]{
+
+  margin: 1em 0 1em 0;
+  padding: .5em;
+  background: #fff;
+   border: none;
+
+   &:hover{
+     color: #F77CAD;
+   }
+}
+
+
+
+@media(min-width: 720px){
+      .two-column{
+          display: grid;
+          grid-template-columns:1fr 1fr;
+      }
+}
