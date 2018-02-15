@@ -11,20 +11,20 @@
         color: #F77CAD;
         font-weight: bold;
         padding-right: 2em
-        
-       
+
+
       }
     }
-     
+
     li{
         padding: .5em;
         font-weight: bold;
         list-style-type: none;
-        
+
         &:hover{
             background-color: #F77CAD;
         }
-        a{
+        >a{
             color: black;
             padding-right: 2em;
         }
@@ -44,8 +44,8 @@
         background: #000;
         margin-top: .2em;
         cursor: pointer;
-        
-       
+
+
         right: 100px;
     }
     &:hover{
@@ -75,7 +75,7 @@
         margin-left: auto;
          margin-right: 4em;
          padding: .7em;
-        
+
     }
 }
 img{

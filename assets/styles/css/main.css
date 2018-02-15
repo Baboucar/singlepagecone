@@ -403,7 +403,9 @@ template {
   display: none; }
 
 body {
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+  color: #666; }
 
 .container {
   width: 90%;
@@ -416,7 +418,8 @@ hr {
   width: 50%; }
 
 h1 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  color: #000000; }
 
 .btn {
   background: #fff;
@@ -443,7 +446,7 @@ h1 {
     list-style-type: none; }
     .navigation li:hover {
       background-color: #F77CAD; }
-    .navigation li a {
+    .navigation li > a {
       color: black;
       padding-right: 2em; }
 
@@ -531,6 +534,9 @@ img {
 .feature-item {
   outline: 2px solid  #eee; }
 
+.round-image {
+  border-radius: 40%; }
+
 .feature-items {
   border-radius: 100%; }
 
@@ -542,5 +548,45 @@ img {
 
   .description {
     width: 90%; } }
+.signupform {
+  background: #FF7CAD; }
+
+form {
+  padding-left: 2.5em; }
+
+label {
+  margin-top: 1em;
+  color: #4E4E4E; }
+
+input {
+  height: 30px; }
+
+input[type="text"], input[type="email"], textarea {
+  display: block;
+  width: 90%; }
+
+.signup-title {
+  padding: 1em; }
+
+input[type="submit"] {
+  margin: 1em 0 1em 0;
+  padding: .5em;
+  background: #fff;
+  border: none; }
+  input[type="submit"]:hover {
+    color: #F77CAD; }
+
+@media (min-width: 720px) {
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+.footer {
+  background: #F66CAD;
+  height: 200px; }
+  .footer > p {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    padding-top: 7em; }
 
 /*# sourceMappingURL=main.css.map */
